@@ -5,8 +5,38 @@
     margin: 0 ;
 } 
 
-.Container-Header {
-    display: flex;
+:root {
+    --main-color: #FFFFFF; 
+    --main-color: #216869;
+    --main-color: #49A078;
+    --main-color: #9CC5A1;
+    --main-color: #1F2421;
+    --pane-padding: 5px 42px;
+  }
+.container-header {
+  display: flex;
+  justify-content: space-around;  
+  align-items: center; 
+  background-color:#216869;
+  width: 100%;
+  position:fixed;
 }
 
+#valores{}
 
+.menu-links{
+    display: flex;
+    gap: 15px;  
+    list-style: none;  
+}
+
+.menu-links li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
