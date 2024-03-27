@@ -13,14 +13,16 @@
     --main-color5: #1F2421;
     --pane-padding: 5px 42px;
   }
+
+
 .container-header {
   display: flex;
   justify-content: space-around;  
   align-items: center; 
   background-color: var(--main-color1 );
   width: 100%;
-  position:fixed;
   height: 70px;
+ 
 }
 
 #title-soon{
@@ -51,13 +53,13 @@
 }
 
 
-/* NÂO ESTA PRONTO, VOU AJEITA A IMAGEM NO CANVAS
+
 #banner-main{
     background-image: url(../img/Hotel.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: calc(100vh - 70px);
-    margin: auto;
+    background-position: right;
 }
-*/
+
 
