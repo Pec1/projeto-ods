@@ -1,0 +1,65 @@
+@charset "UTF-8"; 
+   
+*{
+    padding: 0 ;
+    margin: 0 ;
+} 
+
+:root {
+    --main-color1: #FFFFFF; 
+    --main-color2: #216869;
+    --main-color3: #49A078;
+    --main-color4: #9CC5A1;
+    --main-color5: #1F2421;
+    --pane-padding: 5px 42px;
+  }
+
+
+.container-header {
+  display: flex;
+  justify-content: space-around;  
+  align-items: center; 
+  background-color: var(--main-color1 );
+  width: 100%;
+  height: 70px;
+ 
+}
+
+#title-soon{
+    color: var(--main-color2);
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+
+.menu-links{
+    display: flex;
+    gap: 15px;  
+    list-style: none;  
+}
+
+.menu-links li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #216869;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+#banner-main{
+    background-image: url(../img/Hotel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: calc(100vh - 70px);
+    background-position: right;
+}
+
+
