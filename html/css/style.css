@@ -61,5 +61,30 @@
     height: calc(100vh - 70px);
     background-position: right;
 }
+#banner-text-main {
+   
+}
+
+/*estilização da mensagem da importancia de reciclar*/
+#msg-recicle {
+ background-color: #216869;  
+ margin-top:;
+}
+#eco {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 0px;
+}
+#text-recicle {
+text-align: center;
+color: white;
+padding: 50px;
+padding-top: 0px;
+
+
+}
 
 
