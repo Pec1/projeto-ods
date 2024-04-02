@@ -1,6 +1,13 @@
 @charset "UTF-8"; 
-   
-*{
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+   /*  border: solid 1px red; */
+    list-style: none;
+    text-decoration: none;
     font-family: "Open Sans", sans-serif;
     padding: 0 ;
     margin: 0 ;
@@ -14,47 +21,83 @@
     --main-color5: #1F2421;
     --main-color6: #F2F2F2;
     --pane-padding: 5px 42px;
-  }
-
-
-.container-header {
-  display: flex;
-  justify-content: space-around;  
-  align-items: center; 
-  background-color: var(--main-color1 );
-  width: 100%;
-  height: 70px;
- 
 }
 
-#title-soon{
+/* HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    background: white;
+    padding: 10px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.096);
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;  
+    align-items: center; 
+    padding: 0.25rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+/* #title-soon{
     color: var(--main-color2);
     text-transform: uppercase;
     margin-left: 5px;
     font-size: 20px;
-}
-
+} */
 
 .menu-links{
     display: flex;
-    gap: 15px;  
-    list-style: none;  
+    gap: 3rem;
 }
 
 .menu-links li a {
-    text-decoration: none;
     text-transform: uppercase;
     color: #216869;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-.logo {
+.button-group {
     display: flex;
-    align-items: center;
-
+    gap: 20px;
 }
 
+.btn {
+    background: transparent;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: 2px solid var(--main-color3);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: ease .50s;
+}
 
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.entrar:hover {
+    color: white;
+    background: var(--main-color3);
+    border-color: transparent;
+}
+
+.cadastrar {
+    background: var(--main-color3);
+    color: white;
+}
+
+/* HOME */
 
 #banner-main{
     background-image: url(../img/Hotel.png);
@@ -63,14 +106,14 @@
     height: calc(100vh - 70px);
     background-position: right;
 }
-#banner-text-main {
+/* #banner-text-main {
    
-}
+} */
 
 /*estilização da mensagem da importancia de reciclar*/
 #msg-recicle {
  background-color: #216869;  
- margin-top:;
+/*  margin-top:; */
 }
 #eco {
     padding: 20px;
