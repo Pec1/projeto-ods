@@ -23,8 +23,6 @@ html {
     --pane-padding: 5px 42px;
 }
 
-/* HEADER */
-
 header {
     position: fixed;
     width: 100%;
@@ -35,6 +33,15 @@ header {
     padding: 10px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.096);
 }
+
+section {
+    min-height: 80vh;
+    max-width: 1500px;
+    margin: 0 auto;
+    /* padding-top: 150px; */
+}
+
+/* HEADER */
 
 .container-header {
     display: flex;
@@ -99,7 +106,9 @@ header {
 
 /* HOME */
 
+
 #banner-main{
+    margin-top: 10vh;
     background-image: url(../img/Hotel.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -115,7 +124,9 @@ header {
  background-color: #216869;  
 /*  margin-top:; */
 }
+
 #eco {
+
     padding: 20px;
     display: flex;
     text-align: center;
@@ -123,25 +134,28 @@ header {
     color: white;
     padding-bottom: 0px;
 }
+
 #text-recicle {
-text-align: center;
-color: white;
-padding: 50px;
-padding-top: 0px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    padding-top: 0px;
 }
 
-/*missão*/
+/* MISSION */
 #mission {
+    background: #F2F2F2;
     display: flex;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
 }
-#text-mission {
+
+.text-mission {
    background-color: #F2F2F2;
    align-items: center;
    padding-left: 10px;
-   padding-top: 150px;
 }
-#text-mission > p {
-    padding-top: 20px;
-}
+
 
 
