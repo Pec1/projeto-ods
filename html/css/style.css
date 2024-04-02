@@ -83,8 +83,14 @@ text-align: center;
 color: white;
 padding: 50px;
 padding-top: 0px;
+}
 
-
+/*missão*/
+#mission {
+    display: flex;
+}
+#text-mission {
+   
 }
 
 
