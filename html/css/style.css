@@ -36,7 +36,10 @@ header {
 .text-box{
     padding-top: 200px;
     padding-left: 100px;
-    
+    font-size: 23px;
+}
+.maiusculo {
+    text-transform: uppercase;
 }
 .text-box > h4 {
     padding-top: 30px;
