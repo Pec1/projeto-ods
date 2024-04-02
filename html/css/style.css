@@ -1,6 +1,7 @@
 @charset "UTF-8"; 
    
 *{
+    font-family: "Open Sans", sans-serif;
     padding: 0 ;
     margin: 0 ;
 } 
@@ -11,6 +12,7 @@
     --main-color3: #49A078;
     --main-color4: #9CC5A1;
     --main-color5: #1F2421;
+    --main-color6: #F2F2F2;
     --pane-padding: 5px 42px;
   }
 
@@ -90,7 +92,13 @@ padding-top: 0px;
     display: flex;
 }
 #text-mission {
-   
+   background-color: #F2F2F2;
+   align-items: center;
+   padding-left: 10px;
+   padding-top: 150px;
+}
+#text-mission > p {
+    padding-top: 20px;
 }
 
 
