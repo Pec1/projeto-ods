@@ -33,6 +33,21 @@ header {
     padding: 10px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.096);
 }
+.text-box{
+    padding-top: 200px;
+    padding-left: 100px;
+    
+}
+.text-box > h4 {
+    padding-top: 30px;
+    color: grey;
+}
+#img-text-box {
+    margin-top: 60px;
+}
+#espaço-text {
+    margin-left: 60px;
+}
 
 section {
     min-height: 80vh;
