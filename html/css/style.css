@@ -38,7 +38,7 @@ header {
     padding-left: 100px;
     font-size: 23px;
 }
-.maiusculo {
+.text-box > h1, h2 {
     text-transform: uppercase;
 }
 .text-box > h4 {
@@ -138,12 +138,12 @@ section {
 } */
 
 /*estilização da mensagem da importancia de reciclar*/
-#msg-recicle {
+.msg-recicle {
  background-color: #216869;  
 /*  margin-top:; */
 }
 
-#eco {
+.eco {
 
     padding: 20px;
     display: flex;
@@ -153,7 +153,7 @@ section {
     padding-bottom: 0px;
 }
 
-#text-recicle {
+.text-recicle {
     text-align: center;
     color: white;
     padding: 50px;
