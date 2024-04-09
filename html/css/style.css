@@ -218,7 +218,6 @@ header {
  /*valores*/
  .container-box {
     display: flex;
-    
  }
  .valores-text {
 width: 50%;
@@ -237,7 +236,9 @@ color: #545454;
 
  .sobnos {
 display: flex;
-margin: 100px;
+background-color: #49A078;
+padding: 100px;
+padding-bottom: 20px;
  }
  .sobrenos {
 padding-left: 100px;
