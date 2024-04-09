@@ -32,6 +32,8 @@ header {
     background: white;
     padding: 10px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.096);
+    display: flex;
+    justify-content: center;
 }
 .text-box{
     padding-top: 100px;
@@ -54,18 +56,14 @@ header {
     
 }
 
-section {
-    min-height: 80vh;
-    max-width: 1500px;
-    margin: 0 auto;
-    /* padding-top: 150px; */
-}
+
 
 /* HEADER */
 
 .container-header {
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-between;  
+    width: 80%;
     align-items: center; 
     padding: 0.25rem;
     margin-left: 6rem;
@@ -168,5 +166,47 @@ section {
 
 .container-box{
     display: flex;
-    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    gap: 100px;
+ }
+
+ .container-box-img{
+    width: 40%;
+    background-image: url(../img/Rectangle\ 23\ \(1\).png);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+ }
+
+ .container-box-p{
+    width: 30%;
+    text-align: left;
+
+ }
+
+ .container-box-p h2{
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ .barra{
+    width: 95px;
+    height: 10px;
+    border: 2px solid  #216869;
+    background-color: var(--main-color2);
+ }
+
+ .button-main{
+    padding: 10px;
+    background-color: var(--main-color2);
+    color: #F2F2F2;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
  }
