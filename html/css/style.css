@@ -186,6 +186,7 @@ header {
  .container-box-p{
     width: 30%;
     text-align: left;
+    color: #545454;
 
  }
 
@@ -209,4 +210,45 @@ header {
     border-radius: 10px;
     margin-top: 30px;
     border: none;
+    cursor: pointer;
+ }
+ .button-main:hover {
+    background-color:  #103031;
+ }
+ /*valores*/
+ .container-box {
+    display: flex;
+    
+ }
+ .valores-text {
+width: 50%;
+padding-left: 200px;
+color: #545454;
+}
+
+ .valores-img {
+    width: 50%;
+ }
+ .valores-text h2 {
+    margin-bottom: 30px;
+ }
+
+ /*sobre nós*/
+
+ .sobnos {
+display: flex;
+margin: 100px;
+ }
+ .sobrenos {
+padding-left: 100px;
+color: #1F2421; ;
+ }
+ .sobrenos-img {
+margin-bottom: 70px;
+margin-left: 150px;
+ }
+ .sobrenos > h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
  }
