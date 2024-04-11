@@ -231,6 +231,8 @@ display: flex;
 background-color: #49A078;
 padding: 100px;
 padding-bottom: 20px;
+margin-top: 15px;
+margin-bottom: 15px;
  }
  .sobrenos {
 padding-left: 100px;
@@ -244,4 +246,49 @@ margin-left: 150px;
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
+ }
+
+ /*footer*/
+
+ .footerg {
+    background-color: #1F2421;
+ }
+ .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #216869;
+ }
+ .linha-footer {
+border: 1px solid #216869;
+ }
+ .nav nav ul{
+    display: flex;
+    gap: 41px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    align-items: center;
+    padding-left: 100px;
+ }
+ .nav nav ul li a {
+    color: #216869;
+ }
+ .imgs {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 600px;
+    gap: 50px;
+ }
+ .fim {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #545454;
+    margin-top: 60px;
  }
