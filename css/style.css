@@ -1,5 +1,5 @@
-@charset "UTF-8"; 
-
+/* @charset "UTF-8"; */ 
+ 
 html {
     scroll-behavior: smooth;
 }
@@ -164,38 +164,37 @@ header {
     align-items: center;
     background-color: #F2F2F2;
     gap: 100px;
- }
+}
 
- .container-box-img{
+.container-box-img{
     width: 40%;
     background-image: url(../img/Rectangle\ 23\ \(1\).png);
     background-position:right;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
- }
+}
 
- .container-box-p{
+.container-box-p{
     width: 30%;
     text-align: left;
     color: #545454;
+}
 
- }
-
- .container-box-p h2{
+.container-box-p h2{
     font-weight: 400;
     margin-bottom: 30px;
     font-family: 'Times New Roman', Times, serif;
- }
+}
 
- .barra{
+.barra{
     width: 95px;
     height: 10px;
     border: 2px solid  #216869;
     background-color: var(--main-color2);
- }
+}
 
- .button-main{
+.button-main{
     padding: 10px;
     background-color: var(--main-color2);
     color: #F2F2F2;
@@ -203,26 +202,28 @@ header {
     margin-top: 30px;
     border: none;
     cursor: pointer;
- }
- .button-main:hover {
-    background-color:  #103031;
- }
- /*valores*/
- .container-box {
-    display: flex;
- }
- .valores-text {
-width: 50%;
-padding-left: 200px;
-color: #545454;
 }
 
- .valores-img {
+.button-main:hover {
+    background-color:  #103031;
+}
+ 
+/*valores*/
+.container-box {
+    display: flex;
+}
+.valores-text {
     width: 50%;
- }
- .valores-text h2 {
+    padding-left: 200px;
+    color: #545454;
+}
+
+.valores-img {
+    width: 50%;
+}
+.valores-text h2 {
     margin-bottom: 30px;
- }
+}
 
  /*sobre nós*/
 

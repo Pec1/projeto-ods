@@ -1,8 +1,8 @@
-function buttonEntrar(){
+function buttonEntrar (){
     window.location = "./pages/entrar.html";
 }
 
-function buttonCadastra(){
+function buttonCadastra (){
     window.location = "./pages/cadastrar.html"
 }
 
