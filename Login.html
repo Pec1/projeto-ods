@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Ecoviagens</title>
+    <style>
+        body{
+            background-image: linear-gradient(45deg, #1B5253, #7A9A7E);
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .a{
+            background-color: rgba(255, 255, 255, 1);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 30px 30px;
+            border-radius: 15px;
+            width: 375px;
+        }
+        .text{
+            padding: 5px 5px 5px 5px;
+            border: none;
+            outline: none;
+            background-color: #D9D9D9;
+            border-radius: 8px;
+            width: 100%;
+            height: 35px;
+            box-sizing: border-box;
+            font-size: large;
+        }
+        button{
+            background-color: lightgrey;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-size: large;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: darkgrey;
+        }
+        form{
+            width: 100%;
+        }
+        .b{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        label{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(110, 110, 110);
+        }
+        a{
+            color: #92B4B5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <img src="assets/Ecoviagens_logo.png" alt="Ecoviagens_logo" width="200px">
+        <br><br><br>
+        <form action="#">
+            <input class="text" type="text" placeholder="Email">
+            <br><br>
+            <input class="text" type="password" placeholder="Senha">
+            <br><br>
+            <input type="checkbox" name="Lembrar-me" id="Lembrar-me"><label for="Lembrar-me">Lembrar-me</label>
+            <br>
+        </form>
+        <div class="b">
+            <a href="Cadastrar.html">Criar minha conta</a>
+            <button>Entrar</button>
+        </div>
+    </div>
+</body>
+</html>
