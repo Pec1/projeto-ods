@@ -4,6 +4,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    /* background: linear-gradient(to top right, transparent, rgba(128, 128, 128, 0.414)); */
+}
+
 * {
    /*  border: solid 1px red; */
     list-style: none;
@@ -137,11 +141,23 @@ button:hover {
 
 /* HOME */
 #home-sec {
-    margin: 0 10%;
-    padding-top: 150px;
-    min-width: 100%;
-    background: linear-gradient(to right, transparent, rgba(128, 128, 128, 0.414));
+    display: flex;
 }
+
+.content-box {
+    width: 50%;
+}
+
+/* .image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.image-box img {
+    width: 50%;
+}
+
 #espaço{
     height: 82px;
 }
