@@ -29,7 +29,7 @@ body {
 
 section {
     min-height: 80vh;
-    max-width: 1500px;
+/*     max-width: 1500px; */
     margin: 0 auto;
     padding-top: 150px;
 }
@@ -141,7 +141,12 @@ button:hover {
 
 /* HOME */
 #home-sec {
-    display: flex;
+    margin-left: 20vh;
+    margin-top: 10vh;
+    background-image: url('../images/Hotell3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
 .content-box {
@@ -161,19 +166,6 @@ button:hover {
 #espaço{
     height: 82px;
 }
-
-#banner-main{
-
-    background-image: url(../img/Hotell3.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh ;
-    background-position: right;
-    align-content: center;
-}
-/* #banner-text-main {
-   
-} */
 
 /*estilização da mensagem da importancia de reciclar*/
 .msg-recicle {
