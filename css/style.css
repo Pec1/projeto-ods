@@ -159,175 +159,175 @@ button:hover {
     justify-content: center;
 } */
 
-.image-box img {
-    width: 50%;
-}
+    .image-box img {
+        width: 50%;
+    }
 
-#espaço{
-    height: 82px;
+    #espaço{
+        height: 82px;
 }
 
 /*estilização da mensagem da importancia de reciclar*/
-.msg-recicle {
- background-color: #216869;  
- margin: 15px 0px 15px 0px;
+    .msg-recicle {
+    background-color: #216869;  
+    margin: 15px 0px 15px 0px;
 /*  margin-top:; */
 }
 
-.eco {
+    .eco {
 
-    padding: 20px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    color: white;
-    padding-bottom: 0px;
-}
+        padding: 20px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        color: white;
+        padding-bottom: 0px;
+    }
 
-.text-recicle {
-    text-align: center;
-    color: white;
-    padding: 50px;
-    padding-top: 0px;
-}
+    .text-recicle {
+        text-align: center;
+        color: white;
+        padding: 50px;
+        padding-top: 0px;
+    }
 
 /* MISSION */
 
 
-.container-box{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: #F2F2F2;
-    gap: 100px;
-}
+    .container-box{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2F2F2;
+        gap: 100px;
+    }
 
-.container-box-img{
-    width: 40%;
-    background-image: url(../img/Rectangle\ 23\ \(1\).png);
-    background-position:right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
+    .container-box-img{
+        width: 40%;
+        background-image: url(../img/Rectangle\ 23\ \(1\).png);
+        background-position:right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
 
-.container-box-p{
-    width: 30%;
-    text-align: left;
-    color: #545454;
-}
+    .container-box-p{
+        width: 30%;
+        text-align: left;
+        color: #545454;
+    }
 
-.container-box-p h2{
-    font-weight: 400;
-    margin-bottom: 30px;
-    font-family: 'Times New Roman', Times, serif;
-}
+    .container-box-p h2{
+        font-weight: 400;
+        margin-bottom: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
-.barra{
-    width: 95px;
-    height: 10px;
-    border: 2px solid  #216869;
-    background-color: var(--main-color2);
-}
+    .barra{
+        width: 95px;
+        height: 10px;
+        border: 2px solid  #216869;
+        background-color: var(--main-color2);
+    }
 
-.button-main{
-    padding: 10px;
-    background-color: var(--main-color2);
-    color: #F2F2F2;
-    border-radius: 10px;
-    margin-top: 30px;
-    border: none;
-    cursor: pointer;
-}
+    .button-main{
+        padding: 10px;
+        background-color: var(--main-color2);
+        color: #F2F2F2;
+        border-radius: 10px;
+        margin-top: 30px;
+        border: none;
+        cursor: pointer;
+    }
 
-.button-main:hover {
-    background-color:  #103031;
-}
+    .button-main:hover {
+        background-color:  #103031;
+    }
  
 /*valores*/
-.container-box {
+    .container-box {
+        display: flex;
+    }
+    .valores-text {
+        width: 50%;
+        padding-left: 200px;
+        color: #545454;
+    }
+
+    .valores-img {
+        width: 50%;
+    }
+    .valores-text h2 {
+        margin-bottom: 30px;
+    }
+
+/*sobre nós*/
+
+    #about-sec {
     display: flex;
-}
-.valores-text {
-    width: 50%;
-    padding-left: 200px;
-    color: #545454;
-}
-
-.valores-img {
-    width: 50%;
-}
-.valores-text h2 {
-    margin-bottom: 30px;
-}
-
- /*sobre nós*/
-
- .sobnos {
-display: flex;
-background-color: #49A078;
-padding: 100px;
-padding-bottom: 20px;
-margin-top: 15px;
-margin-bottom: 15px;
- }
- .sobrenos {
-padding-left: 100px;
-color: #1F2421; ;
- }
- .sobrenos-img {
-margin-bottom: 70px;
-margin-left: 150px;
- }
- .sobrenos > h1 {
-    text-align: center;
-    padding-bottom: 50px;
-    padding-top: 50px;
- }
-
- /*footer*/
-
- .footerg {
-    background-color: #1F2421;
- }
- .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: #216869;
- }
- .linha-footer {
-border: 1px solid #216869;
- }
- .nav nav ul{
-    display: flex;
-    gap: 41px;
+    background-color: var(--main-color1);
+    padding: 100px;
+    padding-bottom: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
-    font-size: 22px;
-    align-items: center;
+    }
+    .sobrenos {
     padding-left: 100px;
- }
- .nav nav ul li a {
-    color: #216869;
- }
- .imgs {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding-left: 600px;
-    gap: 50px;
- }
- .fim {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #545454;
-    margin-top: 60px;
- }
+    color: #1F2421; ;
+    }
+    .sobrenos-img {
+    margin-bottom: 70px;
+    margin-left: 150px;
+    }
+    .sobrenos > h1 {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+/*footer*/
+
+    .footerg {
+        background-color: var(--main-color4);
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: #216869;
+    }
+    .linha-footer {
+    border: 1px solid #216869;
+    }
+    .nav nav ul{
+        display: flex;
+        gap: 41px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 22px;
+        align-items: center;
+        padding-left: 100px;
+    }
+    .nav nav ul li a {
+        color: #216869;
+    }
+    .imgs {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-left: 600px;
+        gap: 50px;
+    }
+    .fim {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: #545454;
+        margin-top: 60px;
+    }
