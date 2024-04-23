@@ -83,3 +83,11 @@ window.addEventListener("scroll", function() {
 window.addEventListener('resize', function() {
     setActiveTab();
 });
+
+
+const users = {
+    user1: {
+        login: 'maike@gmail.com',
+        password: 'coxinha123'
+    }
+}
