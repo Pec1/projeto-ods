@@ -7,6 +7,11 @@ function buttonCadastra (){
     window.location = "../pages/cadastro.html"
 }
 
+function dashboard() {
+    window.location = "../pages/cadastro.html"
+}
+
+
 /* Section Ativas */
 function setActiveTab() {
     var scrollPosition = window.scrollY;
