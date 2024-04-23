@@ -26,13 +26,15 @@ body {
     --main-color5: #1F2421;
     --main-color6: #F2F2F2;
     --pane-padding: 5px 42px;
+    --p-font: 1.2rem;
+    --title-font: 2.5rem;
 }
 
 section {
     min-height: 80vh;
 /*     max-width: 1500px; */
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 150px;
 }
 
 header {
@@ -44,6 +46,11 @@ header {
     background: white;
     border-bottom: solid 1px rgba(0, 0, 0, 0.096);
     padding: 10px;
+}
+
+span {
+    font-weight: bold;
+    color: var(--main-color);
 }
 
 /* HEADER */
@@ -133,6 +140,7 @@ header {
 }
 
 button {
+    cursor: pointer;
     transition: ease .50s;
 }
 
@@ -162,6 +170,97 @@ button:hover {
     gap: 30px;
 }
 
+.title {
+    margin-bottom: 24px;
+    font-size: var(--title-font);
+    font-weight: 900;
+    color: #313131;
+    text-align: center;
+    position: relative;
+}
+
+/* Adicione o efeito subilinhado */
+.title::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50%;
+    height: 5px;
+    background: var(--main-color);
+}
+
+#turism-sec {
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-content {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+.list li {
+    margin-bottom: 10px;
+    padding-left: 1.5em;
+    position: relative;
+}
+
+.list li::before {
+    content: '\2022';
+    color: var(--main-color);
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+}
+
+.list::before {
+    content: '';
+    display: block;
+    border-left: 2px solid var(--main-color);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0.15em; 
+}
+
+.image-content {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "img1 ."
+      ". img2"; 
+}
+.img1 { grid-area: img1; }
+.img2 { grid-area: img2; }
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* .image-box {
     display: flex;
     align-items: center;
@@ -177,7 +276,7 @@ button:hover {
 }
 
 /*estilização da mensagem da importancia de reciclar*/
-    .msg-recicle {
+.msg-recicle {
     background-color: #216869;  
     margin: 15px 0px 15px 0px;
 /*  margin-top:; */
@@ -216,7 +315,7 @@ button:hover {
 
     .container-box-img{
         width: 40%;
-        background-image: url(../img/Rectangle\ 23\ \(1\).png);
+        background-image: url('../img/Rectangle\ 23\ \(1\).png');
         background-position:right;
         background-repeat: no-repeat;
         background-size: cover;
@@ -292,7 +391,51 @@ button:hover {
 
 /*sobre nós*/
 
-   #about-sec{
+#about-sec {
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 60%;
+    text-align: justify;
+}
+
+.about-nav {
+    display: flex;
+    gap: 5rem;
+    padding: 1%;
+}
+
+.about-nav a {
+    font-size: var(--p-font);
+    color: black;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.container-content {
+    margin-top: 1%;
+    text-align: justify;
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: 2px solid var(--main-color);
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.container-content:hover {
+    transform: scale(1.05);
+}
+/*    #about-sec{
      display: flex;
      justify-content: space-evenly;
      align-items: center;
@@ -302,7 +445,7 @@ button:hover {
      gap: 50px;
      background-color: #F2F2F2;
      height: 100vh;
-   }
+   } */
    
     .sobrenos-img{
       width: 60%;
@@ -328,47 +471,46 @@ button:hover {
         color: #545454;
    }
 
-/*footer*/
+/* Footer */
+footer {
+    display: flex;
+    background-color: var(--main-color);
+    padding: 20px;
+    text-align: center;
+    min-height: 50vh;
+    margin: 0 auto;
+    padding-top: 150px;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .footerg {
-        background-color: var(--main-color4);
-    }
-    .footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        color: #216869;
-    }
-    .linha-footer {
-    border: 1px solid #216869;
-    }
-    .nav nav ul{
-        display: flex;
-        gap: 41px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        font-size: 22px;
-        align-items: center;
-        padding-left: 100px;
-    }
-    .nav nav ul li a {
-        color: #216869;
-    }
-    .imgs {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        padding-left: 600px;
-        gap: 50px;
-    }
-    .fim {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        color: #545454;
-        margin-top: 60px;
-    }
+.logo-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.email-input {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.send-button {
+    padding: 10px;
+    background-color: #fff;
+    color: var(--main-color); 
+    border: none;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #fff;
+}
