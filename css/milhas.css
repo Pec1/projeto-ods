@@ -35,6 +35,22 @@
     width: 85%;
 }
 
+.pontos {
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid rgba(104, 101, 101, 0.527);
+}
+
+.pontos h3 {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+.pontos img {
+    border: 1px solid rgba(104, 101, 101, 0.527);
+}
+
 .pesquisa{
     border: 1px solid rgba(104, 101, 101, 0.527);
     width: 430px;
