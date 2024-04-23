@@ -1,10 +1,10 @@
 /* Redirecionar */
 function buttonEntrar (){
-    window.location = "/projeto-ods/pages/login.html";
+    window.location = "../pages/login.html";
 }
 
 function buttonCadastra (){
-    window.location = "/projeto-ods/pages/cadastro.html"
+    window.location = "../pages/cadastro.html"
 }
 
 /* Section Ativas */
