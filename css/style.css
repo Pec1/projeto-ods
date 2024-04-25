@@ -422,6 +422,7 @@ button:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 50px;
 }
 
 .container {
@@ -538,9 +539,9 @@ footer {
 
 .copyright {
     margin-top: 20px;
-    color: #c91616;
+    color: #ffffff;
 }
-#acessibilidade {
+#acessibilidade{
     top: 50%;
     right: 15px;
     position: fixed;
