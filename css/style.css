@@ -157,7 +157,7 @@ button:hover {
 /* HOME */
 #home-sec {
     /* margin-left: 20vh; */
-    margin-top: 10vh;
+    
     background-image: url('../images/Hotell3.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -538,5 +538,21 @@ footer {
 
 .copyright {
     margin-top: 20px;
-    color: #fff;
+    color: #c91616;
+}
+#acessibilidade {
+    top: 50%;
+    right: 15px;
+    position: fixed;
+    border: 0;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #9CC5A1;
+
+}
+.sec-ace {
+    min-height: 0vh;
+    padding: 0px;
+    
 }
