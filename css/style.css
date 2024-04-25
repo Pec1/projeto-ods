@@ -457,6 +457,7 @@ button:hover {
     border: 2px solid var(--main-color);
     border-radius: 50px;
     transition: all 0.3s ease;
+    margin-bottom: 10px;
 }
 
 .container-content:hover {
