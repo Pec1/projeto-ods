@@ -145,12 +145,12 @@ span2 {
     border-radius: 1rem;
 }
 
-button {
+.button-group a {
     cursor: pointer;
     transition: ease .50s;
 }
 
-button:hover {
+.button-group a:hover {
     transform: scale(1.2)
 }
 
