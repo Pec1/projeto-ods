@@ -1,10 +1,10 @@
 /* Redirecionar */
 function buttonEntrar (){
-    window.location = "../pages/login.html";
+    window.location = "/pages/login.html";
 }
 
 function buttonCadastra (){
-    window.location = "../pages/cadastro.html"
+    window.location = "/pages/cadastro.html"
 }
 
 function dashboard() {
